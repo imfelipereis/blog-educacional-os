@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    /* border: 1px solid yellow; */
+}

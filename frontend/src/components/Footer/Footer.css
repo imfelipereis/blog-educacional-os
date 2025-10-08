@@ -1,0 +1,28 @@
+/* Footer - Mobile First */
+
+footer {
+    background-color: #fff;
+    color: #222;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Ajustes para telas maiores */
+@media (min-width: 768px) {
+    footer p {
+        font-size: 14px;
+    }
+}
